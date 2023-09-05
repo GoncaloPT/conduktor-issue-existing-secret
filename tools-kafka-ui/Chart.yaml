@@ -1,0 +1,12 @@
+apiVersion: v2
+name: tools-kafka-ui
+description: A Helm chart having a ui for kafka, in this case Conduktor. This tool is dev only.
+type: application
+version: 1.0.2
+appVersion: "7.0.0"
+dependencies:
+  - name: console
+    repository: https://helm.conduktor.io
+    version: 1.1.0
+
+

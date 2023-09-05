@@ -1,0 +1,6 @@
+dependencies:
+- name: console
+  repository: https://helm.conduktor.io
+  version: 1.1.0
+digest: sha256:a764d9851fb19af3dcc8f4d3802eaf2ffffd189c4fcdd3a59ba04c90eaf3ec79
+generated: "2023-09-05T14:22:35.515372+01:00"

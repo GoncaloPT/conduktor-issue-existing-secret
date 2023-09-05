@@ -1,0 +1,11 @@
+#https://github.com/conduktor/conduktor-public-charts/blob/main/charts/console/values.yaml
+
+config:
+  existingSecret: "kafka-ui-secret"
+  database:
+    # the helm chart doesnt allow to pass host using a secret
+    host: "dsmp-psql-shared-dev-we.postgres.database.azure.com"
+    port: 5432
+    name: 'kafka-ui'
+  organization:
+    name: "some-org"
